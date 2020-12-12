@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: 'AntD Admin',
-  copyright: 'Ant Design Admin  ©2020 zuiidea',
+  siteName: 'SASDB',
+  copyright: 'SASDB  ©2020 Storage Availability Solutions',
   logoPath: '/logo.svg',
   apiPrefix: '/api/v1',
   fixedHeader: true, // sticky primary layout header
@@ -24,6 +24,11 @@ module.exports = {
         flag: '/portugal.svg',
       },
       {
+        key: 'es-co',
+        title: 'Español',
+        flag: '/colombia.svg'
+      },
+      {
         key: 'en',
         title: 'English',
         flag: '/america.svg',
@@ -34,6 +39,6 @@ module.exports = {
         flag: '/china.svg',
       },
     ],
-    defaultLanguage: 'en',
+    defaultLanguage: 'es-co',
   },
 }

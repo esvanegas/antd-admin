@@ -73,16 +73,6 @@ class Login extends PureComponent {
               >
                 <Trans>Sign in</Trans>
               </Button>
-              <p>
-                <span className="margin-right">
-                  <Trans>Username</Trans>
-                  ：guest
-                </span>
-                <span>
-                  <Trans>Password</Trans>
-                  ：guest
-                </span>
-              </p>
             </Row>
           </Form>
         </div>
